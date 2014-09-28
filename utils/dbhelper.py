@@ -6,7 +6,7 @@ import traceback
 
 def db_connected():
     try:
-        DATABASE_NAME='lens_database'
+        DATABASE_NAME='test_database'
         connect(DATABASE_NAME)
         return True
     except Exception as e:
